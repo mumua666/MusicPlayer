@@ -1,0 +1,10 @@
+edu\szu\musicplayer\EncodingDetect$Encoding.class
+edu\szu\musicplayer\PlayingFile.class
+edu\szu\musicplayer\MusicListCell.class
+edu\szu\musicplayer\MusicPlayerApp.class
+module-info.class
+edu\szu\musicplayer\XMLUtils.class
+edu\szu\musicplayer\PlayerController.class
+edu\szu\musicplayer\EncodingDetect.class
+edu\szu\musicplayer\EncodingDetect$BytesEncodingDetect.class
+edu\szu\musicplayer\PlayerController$1.class

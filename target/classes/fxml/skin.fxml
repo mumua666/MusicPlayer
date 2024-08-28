@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.leewyatt.rxcontrols.controls.RXToggleButton?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.TilePane?>
+
+<AnchorPane prefHeight="165.0" prefWidth="238.0" styleClass="skin-root"
+   xmlns="http://javafx.com/javafx/20.0.1"
+   xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TilePane hgap="5.0" prefHeight="200.0" prefWidth="200.0" styleClass="skin-pane" vgap="5.0" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="8.0">
+         <children>
+            <RXToggleButton prefHeight="70.0" prefWidth="70.0" text="gold">
+               <styleClass>
+                  <String fx:value="skin-toggle-btn" />
+                  <String fx:value="skin-gold" />
+               </styleClass>
+               <graphic>
+                  <StackPane prefHeight="70.0" prefWidth="70.0" translateX="-8.0">
+                     <children>
+                        <Region maxHeight="25.0" maxWidth="25.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+               </graphic>
+               <toggleGroup>
+                  <ToggleGroup fx:id="skinGroup" />
+               </toggleGroup>
+            </RXToggleButton>
+            <RXToggleButton prefHeight="70.0" prefWidth="70.0" text="blue" toggleGroup="$skinGroup">
+               <styleClass>
+                  <String fx:value="skin-toggle-btn" />
+                  <String fx:value="skin-blue" />
+               </styleClass>
+               <graphic>
+                  <StackPane prefHeight="70.0" prefWidth="70.0" translateX="-8.0">
+                     <children>
+                        <Region maxHeight="25.0" maxWidth="25.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+               </graphic>
+            </RXToggleButton>
+            <RXToggleButton layoutX="10.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" selected="true" text="black" toggleGroup="$skinGroup">
+               <styleClass>
+                  <String fx:value="skin-toggle-btn" />
+                  <String fx:value="skin-black" />
+               </styleClass>
+               <graphic>
+                  <StackPane prefHeight="70.0" prefWidth="70.0" translateX="-8.0">
+                     <children>
+                        <Region maxHeight="25.0" maxWidth="25.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+               </graphic>
+            </RXToggleButton>
+            <RXToggleButton prefHeight="70.0" prefWidth="70.0" text="purple" toggleGroup="$skinGroup">
+               <styleClass>
+                  <String fx:value="skin-toggle-btn" />
+                  <String fx:value="skin-purple" />
+               </styleClass>
+               <graphic>
+                  <StackPane prefHeight="70.0" prefWidth="70.0" translateX="-8.0">
+                     <children>
+                        <Region maxHeight="25.0" maxWidth="25.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+               </graphic>
+            </RXToggleButton>
+            <RXToggleButton prefHeight="70.0" prefWidth="70.0" text="green" toggleGroup="$skinGroup">
+               <styleClass>
+                  <String fx:value="skin-toggle-btn" />
+                  <String fx:value="skin-green" />
+               </styleClass>
+               <graphic>
+                  <StackPane prefHeight="70.0" prefWidth="70.0" translateX="-8.0">
+                     <children>
+                        <Region maxHeight="25.0" maxWidth="25.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+               </graphic>
+            </RXToggleButton>
+            <RXToggleButton layoutX="120.0" layoutY="10.0" prefHeight="70.0" prefWidth="70.0" text="colorful" toggleGroup="$skinGroup">
+               <styleClass>
+                  <String fx:value="skin-toggle-btn" />
+                  <String fx:value="skin-colorful" />
+               </styleClass>
+               <graphic>
+                  <StackPane prefHeight="70.0" prefWidth="70.0" translateX="-8.0">
+                     <children>
+                        <Region maxHeight="25.0" maxWidth="25.0" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </StackPane>
+               </graphic>
+            </RXToggleButton>
+         </children>
+      </TilePane>
+   </children>
+   <stylesheets>
+      <URL value="@../css/black.css" />
+      <URL value="@../css/common.css" />
+   </stylesheets>
+</AnchorPane>

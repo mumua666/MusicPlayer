@@ -1,0 +1,5 @@
+.vscode/
+.ide/
+*.class
+
+!module-info.class

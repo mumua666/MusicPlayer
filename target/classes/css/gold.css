@@ -1,0 +1,34 @@
+.root {
+    -fx-background-color: null;
+    -base-hover-color: #f8db64;
+
+}
+
+/*----图标按钮的通用样式--------*/
+.content-pane {
+    -fx-background-color: #0b4580;
+    -fx-background-image: url("../img/bg_gold.jpg");
+    -fx-background-size: cover;
+}
+
+.spectrum .bar-box {
+    -fx-spacing: 2px;
+}
+
+.spectrum .bar-box .bar {
+    -fx-min-height: 3px;
+}
+
+.rx-audio-spectrum .bar {
+    -fx-background-color: -base-hover-color;
+}
+
+.rx-lrc-view .lrc-line:playing {
+    -fx-text-fill: -base-hover-color;
+}
+
+
+/*--------歌曲列表页------------------*/
+.add-btn:pressed {
+    -fx-background-color: derive(-base-hover-color, -20%);
+}
